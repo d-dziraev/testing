@@ -10,18 +10,7 @@ let worker = {
     }
   };
   
-  function cachingDecorator(func) {
-    let cache = new Map();
-    return function(x) {
-      if (cache.has(x)) {
-        return cache.get(x);
-      }
-      let result = func.call(this, x);
-      console.log(this); // теперь 'this' передаётся правильно
-      cache.set(x, result);
-      return result;
-    };
-  }
+//конфликт
   
   worker.slow = cachingDecorator(worker.slow); // теперь сделаем её кеширующей
   
