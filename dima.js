@@ -6,6 +6,7 @@ function() {
     console.log().replace
         .replace
         .replace
-        .replace
+        .replace 
+        d
     console.log()
 }
