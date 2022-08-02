@@ -1,1 +1,3 @@
-console.log(1)
+class Admin extends User {
+    
+}
