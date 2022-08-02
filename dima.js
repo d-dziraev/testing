@@ -9,6 +9,5 @@ function() {
         .replace 
         d
         d2
-        d2 d4
     console.log()
 }
