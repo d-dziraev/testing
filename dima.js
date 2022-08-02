@@ -9,5 +9,6 @@ function() {
         .replace 
         d
         d2
+        d2
     console.log()
 }
