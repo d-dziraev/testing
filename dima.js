@@ -8,5 +8,6 @@ function() {
         .replace
         .replace 
         d
+        d2
     console.log()
 }
